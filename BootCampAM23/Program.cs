@@ -6,9 +6,12 @@ namespace BootCampAM23
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Storing.DemoVariables();
+
+            //Console.WriteLine("Hello World!");
             Console.WriteLine("<Press Any Key to Quit>");
             Console.ReadKey();
+
         }
     }
 }
